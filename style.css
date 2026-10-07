@@ -6,7 +6,7 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:700 16px/1.45 Nunito,system-ui,sans-serif}
 .ic{width:1.2em;height:1.2em;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-.wrap{max-width:1440px;margin:0 auto;padding:20px 16px 40px;display:grid;gap:18px;grid-template-columns:minmax(320px,5fr) 7fr;grid-template-areas:"head head" "today log" "garden garden"}
+.wrap{max-width:1440px;margin:0 auto;padding:20px 16px 40px;display:grid;gap:18px;grid-template-columns:minmax(320px,5fr) 7fr;grid-template-areas:"head head" "today log" "today garden"}
 #head{grid-area:head}#sec-today{grid-area:today}#sec-garden{grid-area:garden}#sec-log{grid-area:log}
 h1,h2{font-family:Fredoka,Nunito,sans-serif;margin:0;font-weight:600}
 .card{background:var(--card);border:3px solid var(--petal);border-radius:28px;padding:18px;box-shadow:0 6px 0 var(--petal);min-width:0}
